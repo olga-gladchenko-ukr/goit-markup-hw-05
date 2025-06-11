@@ -93,10 +93,6 @@ img {
   margin-right: 76px;
 }
 
-.logo-part {
-  display: inline-flex;
-}
-
 .header-logo .logo-part {
   color: #2e2f42;
 }
@@ -720,12 +716,12 @@ input:placeholder-shown {
 }
 
 .check-element {
-  display: inline-flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   margin-right: 8px;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: transparent;
@@ -738,7 +734,6 @@ input:placeholder-shown {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
-  display: inline-flex;
 }
 
 .check-icon {
