@@ -93,6 +93,10 @@ img {
   margin-right: 76px;
 }
 
+.logo-part {
+  display: inline-flex;
+}
+
 .header-logo .logo-part {
   color: #2e2f42;
 }
