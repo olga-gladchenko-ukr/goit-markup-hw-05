@@ -595,7 +595,7 @@ input:placeholder-shown {
 }
 
 .modal-close-icon {
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-title {
@@ -734,6 +734,11 @@ input:placeholder-shown {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
+  display: inline-flex;
+}
+
+.check-icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .check-text-part {
